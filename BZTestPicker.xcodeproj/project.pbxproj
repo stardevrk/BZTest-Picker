@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002003AF23A00F3F002D6DC6 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002003AE23A00F3F002D6DC6 /* ProgressViewController.m */; };
 		003F3C252398F7BF000171EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F3C242398F7BF000171EA /* AppDelegate.m */; };
 		003F3C282398F7BF000171EA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F3C272398F7BF000171EA /* SceneDelegate.m */; };
 		003F3C2B2398F7BF000171EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F3C2A2398F7BF000171EA /* ViewController.m */; };
@@ -27,9 +28,12 @@
 		003F3C642399081A000171EA /* GMSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 003F3C552399081A000171EA /* GMSelected@2x.png */; };
 		003F3C652399081A000171EA /* GMVideoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 003F3C562399081A000171EA /* GMVideoIcon.png */; };
 		003F3C662399081A000171EA /* GMVideoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 003F3C572399081A000171EA /* GMVideoIcon@2x.png */; };
+		5F6810FAA3A4E0B0B4D84ACC /* Pods_BZTestPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C739BA93ABAE96B6A24ADC4 /* Pods_BZTestPicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		002003AD23A00F3F002D6DC6 /* ProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		002003AE23A00F3F002D6DC6 /* ProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
 		003F3C202398F7BF000171EA /* BZTestPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BZTestPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		003F3C232398F7BF000171EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		003F3C242398F7BF000171EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +71,10 @@
 		003F3C572399081A000171EA /* GMVideoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GMVideoIcon@2x.png"; sourceTree = "<group>"; };
 		003F3C582399081A000171EA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
 		003F3C592399081A000171EA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/GMImagePicker.strings; sourceTree = "<group>"; };
+		004AA197239EEB7000779214 /* BZTestPicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BZTestPicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C739BA93ABAE96B6A24ADC4 /* Pods_BZTestPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BZTestPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B13115EC6F1677613ED01E6 /* Pods-BZTestPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZTestPicker.debug.xcconfig"; path = "Target Support Files/Pods-BZTestPicker/Pods-BZTestPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2F66F6067B3AFC14D93CF1 /* Pods-BZTestPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BZTestPicker.release.xcconfig"; path = "Target Support Files/Pods-BZTestPicker/Pods-BZTestPicker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6810FAA3A4E0B0B4D84ACC /* Pods_BZTestPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,8 @@
 			children = (
 				003F3C222398F7BF000171EA /* BZTestPicker */,
 				003F3C212398F7BF000171EA /* Products */,
+				734DD9F63C487A2FB2106632 /* Pods */,
+				BD6AC95DC41773AE6A08121C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +122,7 @@
 				003F3C312398F7C8000171EA /* LaunchScreen.storyboard */,
 				003F3C342398F7C8000171EA /* Info.plist */,
 				003F3C352398F7C8000171EA /* main.m */,
+				004AA197239EEB7000779214 /* BZTestPicker-Bridging-Header.h */,
 			);
 			path = BZTestPicker;
 			sourceTree = "<group>";
@@ -136,6 +148,8 @@
 				003F3C552399081A000171EA /* GMSelected@2x.png */,
 				003F3C562399081A000171EA /* GMVideoIcon.png */,
 				003F3C572399081A000171EA /* GMVideoIcon@2x.png */,
+				002003AD23A00F3F002D6DC6 /* ProgressViewController.h */,
+				002003AE23A00F3F002D6DC6 /* ProgressViewController.m */,
 			);
 			path = GMImagePicker;
 			sourceTree = "<group>";
@@ -148,6 +162,23 @@
 			path = 0.0.2;
 			sourceTree = "<group>";
 		};
+		734DD9F63C487A2FB2106632 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B13115EC6F1677613ED01E6 /* Pods-BZTestPicker.debug.xcconfig */,
+				BA2F66F6067B3AFC14D93CF1 /* Pods-BZTestPicker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD6AC95DC41773AE6A08121C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C739BA93ABAE96B6A24ADC4 /* Pods_BZTestPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 003F3C392398F7C8000171EA /* Build configuration list for PBXNativeTarget "BZTestPicker" */;
 			buildPhases = (
+				2339547CFA561E0B91586088 /* [CP] Check Pods Manifest.lock */,
 				003F3C1C2398F7BF000171EA /* Sources */,
 				003F3C1D2398F7BF000171EA /* Frameworks */,
 				003F3C1E2398F7BF000171EA /* Resources */,
+				64FCE380EFC4F011059D3E4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +212,7 @@
 				TargetAttributes = {
 					003F3C1F2398F7BF000171EA = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -227,6 +261,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2339547CFA561E0B91586088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BZTestPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FCE380EFC4F011059D3E4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BZTestPicker/Pods-BZTestPicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BZTestPicker/Pods-BZTestPicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BZTestPicker/Pods-BZTestPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		003F3C1C2398F7BF000171EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -237,6 +313,7 @@
 				003F3C2B2398F7BF000171EA /* ViewController.m in Sources */,
 				003F3C612399081A000171EA /* GMGridViewController.m in Sources */,
 				003F3C252398F7BF000171EA /* AppDelegate.m in Sources */,
+				002003AF23A00F3F002D6DC6 /* ProgressViewController.m in Sources */,
 				003F3C362398F7C8000171EA /* main.m in Sources */,
 				003F3C5C2399081A000171EA /* GMAlbumsViewCell.m in Sources */,
 				003F3C5D2399081A000171EA /* GMAlbumsViewController.m in Sources */,
@@ -393,8 +470,10 @@
 		};
 		003F3C3A2398F7C8000171EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B13115EC6F1677613ED01E6 /* Pods-BZTestPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G8G686B49;
 				INFOPLIST_FILE = BZTestPicker/Info.plist;
@@ -405,14 +484,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.myexperienceapp.com.experience;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BZTestPicker/BZTestPicker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		003F3C3B2398F7C8000171EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2F66F6067B3AFC14D93CF1 /* Pods-BZTestPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9G8G686B49;
 				INFOPLIST_FILE = BZTestPicker/Info.plist;
@@ -423,6 +507,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.myexperienceapp.com.experience;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BZTestPicker/BZTestPicker-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

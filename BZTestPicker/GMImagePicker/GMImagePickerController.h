@@ -9,6 +9,8 @@
 @import UIKit;
 @import Photos;
 
+@import FilestackSDK;
+
 
 //This is the default image picker size!
 //static CGSize const kPopoverContentSize = {320, 480};
@@ -174,6 +176,7 @@ static CGSize const kPopoverContentSize = {480, 720};
  * A reference to the navigation controller used to manage the whole picking process
  */
 @property (nonatomic, strong) UINavigationController *navigationController;
+//@property (nonatomic, strong) UINavigationController *progressController;
 
 /**
  *  Managing Asset Selection

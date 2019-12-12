@@ -9,11 +9,14 @@
 #import "ViewController.h"
 #import "GMImagePickerController.h"
 
+@import FilestackSDK;
+@import Filestack;
+
 @import UIKit;
 @import Photos;
 
 @interface ViewController ()
-
+@property (strong) FSClient *client;
 @end
 
 @implementation ViewController
@@ -132,7 +135,6 @@
 - (void)assetsPickerController:(GMImagePickerController *)picker didFinishPickingAssets:(NSArray *)assetArray
 {
     
-    
     for (PHAsset *asset in assetArray) {
         if (asset.mediaType == PHAssetMediaTypeImage) {
             [[PHImageManager defaultManager] requestImageDataForAsset:asset options:nil resultHandler:^(NSData *imageData, NSString *dataUTI, UIImageOrientation orientation, NSDictionary *info) {
@@ -151,6 +153,21 @@
                 {
                     NSURL *url = [(AVURLAsset*)asset URL];
                      // do what you want with it
+                    
+//                    FSUploader *uploader = [self->_client uploadURLUsing:url options:uploadOptions queue:dispatch_get_main_queue() uploadProgress:^(NSProgress * _Nonnull progress) {
+//                         NSLog(@"Progress: %@", progress);
+//                        
+//                    } completionHandler:^(FSNetworkJSONResponse * _Nullable response) { NSDictionary *jsonResponse = response.json;
+//                        NSString *handle = jsonResponse[@"handle"];
+//                        NSError *error = response.error;
+//                        if (handle) { // Use Filestack handle
+//                            NSLog(@"Handle is: %@", handle);
+//                        } else if (error) { // Handle error
+//                            NSLog(@"Error is: %@", error);
+//                        }
+//                        
+//                    } ];
+                    
 //                    NSString *path = [url absoluteURL];
                     NSString *path=[NSString stringWithFormat:@"%@",url];
                     NSLog(@"GMImagePicker: User ended picking assets. Video Path is: %@", path);

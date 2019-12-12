@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-BZTestPicker/Pods-BZTestPicker-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${BUILT_PRODUCTS_DIR}/Filestack/Filestack.framework
+${BUILT_PRODUCTS_DIR}/FilestackSDK/FilestackSDK.framework
+${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework

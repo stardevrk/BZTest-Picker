@@ -159,6 +159,12 @@ NSString * const GMGridViewCellIdentifier = @"GMGridViewCellIdentifier";
     return self.picker.pickerStatusBarStyle;
 }
 
+-(BOOL) shouldAutorotate{ return YES; }
+
+-(UIInterfaceOrientationMask) supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 
 #pragma mark - Rotation
 
